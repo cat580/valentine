@@ -30,7 +30,7 @@ h1 {
     animation: pulse 1.5s infinite;
 }
 
-.heart {
+.cat {
     font-size: 80px;
     animation: float 3s ease-in-out infinite;
     display: inline-block;
