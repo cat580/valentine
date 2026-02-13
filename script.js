@@ -7,7 +7,7 @@ yesBtn.addEventListener('click', () => {
     celebration.style.display = 'block';
     document.querySelector('.buttons').style.display = 'none';
     document.querySelector('h1').textContent = 'Purr-fect! You said yes! 😻💝';
-    document.querySelector('.cat').textContent = '😻💕';
+    document.querySelector('.cat').textContent = '';
     createConfetti();
 });
 
@@ -35,3 +35,9 @@ function createConfetti() {
         }, i * 50);
     }
 }
+
+function createFloatingCats() {
+    return;
+}
+
+createFloatingCats();
