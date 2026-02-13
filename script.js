@@ -6,7 +6,8 @@ let noBtnSize = 18;
 yesBtn.addEventListener('click', () => {
     celebration.style.display = 'block';
     document.querySelector('.buttons').style.display = 'none';
-    document.querySelector('h1').textContent = 'I knew you would say yes! 💝';
+    document.querySelector('h1').textContent = 'Purr-fect! You said yes! 😻💝';
+    document.querySelector('.cat').textContent = '😻💕';
     createConfetti();
 });
 
